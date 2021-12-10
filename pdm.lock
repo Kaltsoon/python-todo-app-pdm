@@ -49,11 +49,6 @@ version = "1.1.1"
 summary = "iniconfig: brain-dead simple config-ini parsing"
 
 [[package]]
-name = "invoke"
-version = "1.6.0"
-summary = "Pythonic task execution"
-
-[[package]]
 name = "isort"
 version = "5.10.1"
 requires_python = ">=3.6.1,<4.0"
@@ -181,7 +176,7 @@ summary = "Module for decorators, wrappers and monkey patching."
 
 [metadata]
 lock_version = "3.1"
-content_hash = "sha256:08c3bf19c36815bee68eda22021c42b8c59454d9f215569b6740ddffd1fca45d"
+content_hash = "sha256:5245c47b0574a11e5324c96d8c91ce2ddbc7ab6b422ff1b8950528fb1a52ef58"
 
 [metadata.files]
 "astroid 2.9.0" = [
@@ -256,11 +251,6 @@ content_hash = "sha256:08c3bf19c36815bee68eda22021c42b8c59454d9f215569b6740ddffd
 "iniconfig 1.1.1" = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
-]
-"invoke 1.6.0" = [
-    {file = "invoke-1.6.0-py2-none-any.whl", hash = "sha256:e6c9917a1e3e73e7ea91fdf82d5f151ccfe85bf30cc65cdb892444c02dbb5f74"},
-    {file = "invoke-1.6.0-py3-none-any.whl", hash = "sha256:769e90caeb1bd07d484821732f931f1ad8916a38e3f3e618644687fc09cb6317"},
-    {file = "invoke-1.6.0.tar.gz", hash = "sha256:374d1e2ecf78981da94bfaf95366216aaec27c2d6a7b7d5818d92da55aa258d3"},
 ]
 "isort 5.10.1" = [
     {file = "isort-5.10.1-py3-none-any.whl", hash = "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7"},

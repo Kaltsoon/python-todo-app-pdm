@@ -23,19 +23,19 @@ Sovelluksen toiminta on testattu Python-versiolla `3.8`. Etenkin vanhempien Pyth
 1. Asenna riippuvuudet komennolla:
 
 ```bash
-poetry install
+pdm install
 ```
 
 2. Suorita vaadittavat alustustoimenpiteet komennolla:
 
 ```bash
-poetry run invoke build
+pdm run build
 ```
 
 3. Käynnistä sovellus komennolla:
 
 ```bash
-poetry run invoke start
+pdm run start
 ```
 
 ## Komentorivitoiminnot
@@ -45,7 +45,7 @@ poetry run invoke start
 Ohjelman pystyy suorittamaan komennolla:
 
 ```bash
-poetry run invoke start
+pdm run start
 ```
 
 ### Testaus
@@ -53,15 +53,21 @@ poetry run invoke start
 Testit suoritetaan komennolla:
 
 ```bash
-poetry run invoke test
+pdm run test
 ```
 
 ### Testikattavuus
 
-Testikattavuusraportin voi generoida komennolla:
+Testikattavuuden voi kerätä komennolla:
 
 ```bash
-poetry run invoke coverage-report
+pdm run coverage
+```
+
+Testikattavuusraportin voi tämän jälkeen generoida komennolla:
+
+```bash
+pdm run coverage-report
 ```
 
 Raportti generoituu _htmlcov_-hakemistoon.
@@ -71,5 +77,5 @@ Raportti generoituu _htmlcov_-hakemistoon.
 Tiedoston [.pylintrc](./.pylintrc) määrittelemät tarkistukset voi suorittaa komennolla:
 
 ```bash
-poetry run invoke lint
+pdm run lint
 ```
